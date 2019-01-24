@@ -17,7 +17,7 @@ import (
 	"github.com/onsi/gomega/gbytes"
 )
 
-var _ = FDescribe("Send Stream", func() {
+var _ = Describe("Send Stream", func() {
 	const streamID protocol.StreamID = 1337
 
 	var (
